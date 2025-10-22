@@ -18,7 +18,7 @@ pipeline {
 
                     // Run tests using pytest
                     
-                    bat 'pytest -v'
+                    bat '"C:\\Users\\jyoth\\AppData\\Local\\Programs\\Python\\Python313\\python.exe" -m pytest -v'
             }
         }
 
